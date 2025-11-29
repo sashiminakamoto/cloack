@@ -357,3 +357,20 @@ healthchecksdb
 /clicks.db
 /clicks.db-shm
 /clicks.db-wal
+
+# Yellow Cloaker v3.0 - Sensitive files
+.claude/
+.claude.json
+.claude.json.backup
+*.backup
+.wget-hsts
+.config/
+
+# YOURLS sensitive config
+links/user/config.php
+yourls/user/config.php
+
+# Logs with real data
+logs/whiteclicks/*.json
+logs/blackclicks/*.json
+logs/leads/*.json

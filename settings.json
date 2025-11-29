@@ -125,18 +125,13 @@
         "filters": {
             "allowed": {
                 "countries": [
-                    "UA",
-                    "BY",
-                    "SG"
+                    "WW"
                 ],
-                "os": [
-                    "Android",
-                    "iOS",
-                    "Windows",
-                    "OS X"
-                ],
+                "os": [],
                 "inurl": [],
-                "languages": []
+                "languages": [
+                    "any"
+                ]
             },
             "blocked": {
                 "ips": {
