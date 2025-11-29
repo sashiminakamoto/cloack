@@ -66,7 +66,7 @@
                 },
                 "customthankyoupage": {
                     "use": true,
-                    "language": "RU",
+                    "language": "EN",
                     "upsell": {
                         "use": false,
                         "imgdir": "img",
@@ -126,7 +126,8 @@
             "allowed": {
                 "countries": [
                     "UA",
-                    "BY"
+                    "BY",
+                    "SG"
                 ],
                 "os": [
                     "Android",
@@ -151,15 +152,7 @@
                     "yandex.com/bots",
                     "OdklBot"
                 ],
-                "isps": [
-                    "facebook",
-                    "google",
-                    "yandex",
-                    "amazon",
-                    "azure",
-                    "digitalocean",
-                    "microsoft"
-                ],
+                "isps": [],
                 "referer": {
                     "empty": false,
                     "stopwords": []
