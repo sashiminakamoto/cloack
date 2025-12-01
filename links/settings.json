@@ -125,7 +125,7 @@
         "filters": {
             "allowed": {
                 "countries": [
-                    "WW"
+                    "VN"
                 ],
                 "os": [],
                 "inurl": [],
@@ -135,13 +135,19 @@
             },
             "blocked": {
                 "ips": {
-                    "filename": "",
-                    "cidrformat": false
+                    "filename": "bases/bots.txt",
+                    "cidrformat": true
                 },
                 "tokens": [],
                 "useragents": [
                     "facebook",
                     "Facebot",
+                    "facebookexternalhit",
+                    "facebookcatalog",
+                    "meta-webindexer",
+                    "meta-externalfetcher",
+                    "meta-externalads",
+                    "meta-externalagent",
                     "curl",
                     "gce-spider",
                     "yandex.com/bots",
